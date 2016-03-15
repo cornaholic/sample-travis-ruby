@@ -6,6 +6,6 @@ class Bowling
   end
 
   def hit(pin_count)
-    @score += pin_count
+    @score += pin_count * 2
   end
 end
